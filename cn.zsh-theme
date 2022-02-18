@@ -1,5 +1,6 @@
 # cn - zsh theme
 
+# username
 username() {
    echo "%{$FG[160]%}%n%{$reset_color%}"
 }
