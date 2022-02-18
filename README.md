@@ -10,6 +10,15 @@
 ### Output
 ![2](https://user-images.githubusercontent.com/82374446/153742818-8b49dfad-6805-4ac1-8eb8-d953b239d8c9.png)
 
-### for banner add this command in the end of .zshrc file
-```figlet -c -f 'ANSI Shadow' NAME | lolcat```
-- make sure you already installed figlet and lolcat ```apt install figlet lolcat```
+---------------
+
+## Banner
+
+ #### 1. Install figlet and lolcat
+ ```apt install figlet lolcat```
+ 
+ #### 2. Download this script
+ ```wget https://github.com/xero/figlet-fonts/blob/master/ANSI%20Shadow.flf /usr/share/figlet/```
+ 
+ #### 3. Add this command in the end of .zshrc file
+ ```figlet -ct -f 'ANSI Shadow' YOURNAME | lolcat```
