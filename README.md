@@ -23,5 +23,6 @@
  #### 3. Add this command in the end of .zshrc file
  ```figlet -ct -f 'ANSI Shadow' YOURNAME | lolcat```
  
- #### 4. Set alias
+ #### 4. Set alias in end of .zshrc File
+ ```nano ~/.zshrc```
  ```alias clear="clear && figlet -ct -f 'ANSI Shadow' YOURNAME | lolcat"```
